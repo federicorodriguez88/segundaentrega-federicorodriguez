@@ -1,0 +1,552 @@
+/* INDEX  */
+
+
+
+.logo{
+   width: 100px;
+   height: 150px;
+   animation: Animation 2s linear infinite;
+}
+
+@keyframes Animation {
+
+   0%{
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+   }
+
+   30%{
+       box-shadow: 0 0 0 10px rgb(255, 255, 255);
+   }
+
+   65%{
+       box-shadow: 0 0 0 7px rgb(255, 255, 255);
+   }
+
+   100%{
+       box-shadow: 0 0 0 0 rgb(255, 255, 255);
+   }
+}
+.navbar-toggler{
+    background-color: #ffffff;
+}
+
+
+.container-fluid{
+   background-color: #012a4a;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+.mainindex{
+   background-color: #014f86;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  padding-top: 50px;
+  right: 8px;
+  left: 8px;
+  padding-bottom: 50px;
+  
+
+}
+
+h3{
+   font-size: large;
+}
+
+
+.imagenindex img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   width: 200px;
+   height: 300px;
+
+}
+
+.imagenindex2 img{
+    padding-top: 50px;
+    width: 200px;
+   height: 350px;
+   padding-bottom: 30px;
+}
+
+   
+
+
+.somosindex{
+   font-family: Georgia, 'Times New Roman', Times, serif;color: #ffffff; font-size: larger;
+   width: 250px;
+   
+}
+
+.espesoresdisponibles{
+
+   font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff; font-size:large;
+   width: 200px ;
+   height: 100px;
+   padding-top: 100px;
+   padding: 0 5px;
+   margin:auto;
+}
+
+.consultas{
+
+   font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+   width: 300px ;
+   height: 300px;
+   padding-left: 20px;
+   padding-top: 200px;
+   padding-bottom: 550px;
+   
+  
+   
+}
+
+.encontramos{
+
+   font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+   max-width: 200px ;
+   height: 400px;
+   padding-top: 100px;
+   padding-bottom: 20px;
+   padding-right: 10px;
+   
+}
+
+.mapa iframe{
+    width: 200px;
+    height: 200px; 
+    
+  }
+
+
+
+.footerindex{
+   background-color: #468faf;
+   padding:1px 1px;
+   padding-bottom: 20px;
+   padding-left: 0px;
+   padding-top: 0px;
+ 
+}
+.textofooter{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+   display:flex;
+   align-items: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+}
+.logosfooter{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 0px;
+padding: 40px 40px;
+}
+
+
+/* CATALOGO DE PANELES  */
+
+.menupaneles{
+    background-color: #014f86;
+padding-top: 100px;
+padding-bottom: 100px;
+left: 0px;
+width: 330px;
+right: 250px;
+}
+.carousel-control-prev{
+    position:absolute;
+    top:350px;
+    bottom: 350px;
+}
+.carousel-control-next{
+    position:absolute;
+    top:350px;
+    bottom: 350px;
+
+}
+
+.carousel.slide{
+    width: 325px;
+    padding-left: 0px;
+}
+
+
+/* CATALOGO DE CUADROS */
+
+.menucuadros{
+    background-color: #014f86;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 330px;
+    right: 250px;
+    left: 0px;
+    
+} 
+
+.carousel-item{
+ width: 330px ;
+}
+
+
+
+
+
+
+
+/* TRABAJA CON NOSOTROS */
+
+.maintrabaja{
+    background-color: #014f86;
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+
+}
+
+.footeertrabaja{
+    height: 350px;
+}
+
+
+/* NUESTROS CLIENTES */
+
+
+.footerclientes{
+    background-color: #468faf;
+    padding:4px 4px;
+    padding-bottom: 0px;
+ }
+ .logosfooter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 10px;
+ padding: 40px 40px;
+ }
+
+ .menucliente{
+     background-color: #014f86;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+  
+ }
+ 
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+/* TRABAJA CON NOSOTROS */
+
+.maintrabaja{
+    padding-left: 10px
+}
+.footertrabaja{
+
+background-color: #468faf;
+}
+
+.sectortrabaja{
+    padding-bottom: 20px;
+}
+
+/* AQUI COMIENZA EL MEDIA QUERIES */
+
+@media screen and (min-width:768px) {
+
+
+/* INDEX */
+
+ .navbar{
+     margin: 0px;
+     left: 8px;
+     padding-top: 0px;
+     right: 8px;
+     padding-bottom: 0px;
+
+ }
+ .navbar-light .navbar-nav .nav-link.active{
+     color: #ffffff;
+ }
+ .navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+ }
+
+.logo{
+    width: 100px;
+    height: 150px;
+    animation: Animation 2s linear infinite;
+}
+
+@keyframes Animation {
+ 
+    0%{
+         box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+
+    30%{
+        box-shadow: 0 0 0 15px rgb(255, 255, 255);
+    }
+
+    65%{
+        box-shadow: 0 0 0 10px rgb(255, 255, 255);
+    }
+
+    100%{
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    }
+}
+
+
+.container-fluid{
+    background-color: #012a4a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.mainindex{
+    background-color: #014f86;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+   padding-top: 50px;
+   right: 8px;
+   left: 8px;
+   padding-bottom: 250px;
+   
+
+}
+
+h3{
+    font-size: large;
+}
+.somosindex{
+    
+    padding-left: 50px;
+    
+}
+
+.imagenindex img{
+    padding-left: 200px;
+    width: 550px;
+    height: 200px;
+}
+
+.imagenindex2 img{
+    padding-top: 30px;
+    padding-left: 80px;
+    width: 550px;
+    height: 350px;
+}
+.espesoresdisponibles{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff; font-size:large;
+    width: 500px ;
+    height: 300px;
+    padding-left: 200px;
+    padding-top: 150px;
+    
+}
+
+
+
+.encontramos{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    width: 500px ;
+    height: 500px;
+    padding: 70px;
+    padding-top: 200px;
+    
+    
+}
+
+.somosindex{
+    font-family: Georgia, 'Times New Roman', Times, serif;color: #ffffff; font-size: larger;
+    
+}
+
+
+
+.consultas{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    width: 500px ;
+    height: 500px;
+    padding: 60px;
+   
+    
+}
+
+
+.footerindex{
+    background-color: #468faf;
+    padding-bottom: 30px;
+}
+.textofooter{
+    padding-top: 50px;
+    padding-left: 50px;
+    display:flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+}
+.logosfooter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+/* PANELES */
+
+.paneles1{
+width: 400px;
+height: 300px;
+} 
+
+.paneles2{
+    width: 400px;
+    height: 300px;
+}
+
+.paneles3{
+    width: 400px;
+    height: 300px;
+}
+
+.paneles4{
+    width: 400px;
+    height: 300px;
+}
+ .menupaneles{
+    
+     background-color: #014f86; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-color: black;
+     padding-right: 100px;
+     width: 1343px;
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+.carousel-control-next{
+    position:absolute;
+    top:350px;
+    bottom: 150px;
+}
+.carousel-control-prev{
+    position:absolute;
+    top:350px;
+    bottom: 150px;
+}
+
+
+/* CUADROS */
+
+.cuadro1{
+    width: 400px;
+    height: 300px;
+    
+}
+.cuadro2{
+    width: 400px;
+    height: 300px;
+    
+}
+.cuadro3{
+    width: 400px;
+    height: 300px;
+    
+}
+.cuadro4{
+    width: 400px;
+    height: 300px;
+    
+}
+
+.menucuadros{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #014f86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    padding-right: 100px;
+    width: 1343px;
+    }
+
+.footercuadros{
+    background-color: #468faf;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: center;
+    }
+/* TRABAJA CON NOSOTROS */
+
+.maintrabaja{
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    background-color: #014f86;
+    display: grid;
+    grid-template-areas: 
+    "datostrabaja form" "sectortrabaja form"
+    ;
+    align-items: center;
+    
+}
+.datostrabaja{
+    grid-area: "datostrabaja form";
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    padding-left: 100px;
+   
+    padding-right: 50px;
+}
+.sectortrabaja{
+    grid-area: "sectortrabaja form";
+    font-family: Georgia, 'Times New Roman', Times, serif; color: #ffffff;
+    padding-left: 150px;
+
+}
+
+
+/* NUESTROS CLIENTES */
+
+.menucliente{
+   
+padding-top: 50px;
+padding-bottom: 0px;
+right: 0px;
+background-color: #014f86;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #ffffff;
+
+
+
+}
+
+body{
+    background-color: #012a4a;
+
+
+}
+.navbar{
+    left: 8px;
+    top: 0px;
+    right: 8px;
+}
+
+.footerclientes{
+    
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: #468faf;
+    
+}
+
+
+}
